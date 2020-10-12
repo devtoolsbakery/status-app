@@ -1,0 +1,26 @@
+{
+  "name": "client-status",
+  "version": "1.0.0",
+  "description": "Front-end client to consume date from the server.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "PORT=3000 node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "express": "^4.17.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "latest",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {},
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "author": "Adrian Mato and Ivan Guardado",
+  "license": "MIT"
+}
